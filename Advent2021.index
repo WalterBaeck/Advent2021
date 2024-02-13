@@ -1,0 +1,25 @@
+01: Running average / FIFO / Array pointers
+02: <String Nr> parsing
+03: <Bitsquare> parsing / Bit counting
+04: {Nr} square parsing
+05: Line segment parsing (x1,y1 - x2,y2) in 2-D grid
+06: LFSR
+07: Median calculation
+08: 7-segment display / permutations / anagram matching
+09: <Nrsquare> parsing / 4-way graph directions / graph local clusters / 3-maximum accounting
+10: Nested paired bracket parsing / Stack / Sorted insertion / Median
+11: 8-way graph directions / finite element simulation
+12: Graph parsing by arbitrary name pairs / exhaustive graph traversal / backtracking
+13: 2-D grid folding / array deletion / 2-D printout
+14: letter pair matching / array insertion / matrix multiplication / Markov chain / Trellis
+15: Exhaustive graph traversal / Dijkstra / 2-D cost function / iterative updating
+16: Bitfield parsing / operator stack
+17: Ballistics
+18: Nested paired bracket parsing / Stack / Linked-list tree
+19: All possible transformations of 3-D orientation + offset
+20: 2-D array allocation / Conway / finite element simulation
+21: Dice sums / matrix multiplication / expanding Markov chain
+22: 3-D array allocation / Cube intersections / array insertion-extraction
+23: Hanoi towers / exhaustive graph traversal / backtracking
+24: Assembler / simulated execution
+25: 2-way graph directions / finite element simulation
