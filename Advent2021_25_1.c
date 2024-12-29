@@ -133,7 +133,7 @@ int main(int Arguments, char* Argument[])
 		if (!memcmp(Prev, Cell, 200 * 200 * sizeof(tDir)))         break;
 
 	} /* for (IterationNr) */
-	printf("IterationNr %d\n", IterationNr);
+	printf("IterationNr %d\n", IterationNr+1);
 
 	return 0;
 }		
