@@ -95,10 +95,10 @@ int main(int Arguments, char* Argument[])
 	// Fake cost for starting cell
 	Cost[0][0] = 1;
 	int *NewX,*NewY,*ExtraX,*ExtraY;
-	NewX = malloc(10000 * sizeof(int));
-	NewY = malloc(10000 * sizeof(int));
-	ExtraX = malloc(10000 * sizeof(int));
-	ExtraY = malloc(10000 * sizeof(int));
+	NewX = malloc(20000 * sizeof(int));
+	NewY = malloc(20000 * sizeof(int));
+	ExtraX = malloc(20000 * sizeof(int));
+	ExtraY = malloc(20000 * sizeof(int));
 	int NrOfNew,NewNr;
 	// Start out with just 1 cell being 'newly discovered'
 	NewX[0]=0; NewY[0]=0; NrOfNew=1;
@@ -133,9 +133,9 @@ int main(int Arguments, char* Argument[])
 				// ------ All conditions have been met : so we found a viable Extra cell ------
 				ExtraX[NrOfExtra]=DestX; ExtraY[NrOfExtra]=DestY;
 				NrOfExtra++;
-				if (NrOfExtra >= 10000)
+				if (NrOfExtra >= 20000)
 				{
-					fprintf(stderr, "No room for more than 10000 Extra cells at once\n");
+					fprintf(stderr, "No room for more than 20000 Extra cells at once\n");
 					exit(4);
 				}
 				// Register this as the new Cost for the adjacent cell
